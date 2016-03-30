@@ -1,8 +1,8 @@
 permalink: /:categories/:title/
 url: "http://example.com"
 full_name: "Brynne E. Lycette"
-first_name: "Just"
-last_name: "Me"
+first_name: "Brynne E."
+last_name: "Lycette""
 blog_title: "Title"
 author_img_name_path: "/images/users/user.jpg"
 disqus_shortname: "example"
