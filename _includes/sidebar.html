@@ -8,7 +8,27 @@ The color combination used here comes from <a href="http://clrs.cc" target="_bla
 <b>Links</b>
 <p>
   <ul>
-    <li><a href="https://www.linkedin.com/in/blycette">LinkedIn</a></li>
+    {% if site.github_username %}
+      <li>
+        <a href="https://github.com/{{ site.github_username }}">
+          <i class="fa fa-github"></i>
+        </a>
+      </li>
+    {% endif %}
+    {% if site.linkedin_username %}
+      <li>
+        <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </li>
+    {% endif %}
+    {% if site.linkedin_username %}
+      <li>
+        <a href="https://steamcommunity.com/id/{{ site.steam_username }}">
+          <i class="fa fa-steam"></i> 
+        </a>
+      </li>
+    {% endif %}
   </ul>
 </p>
 
